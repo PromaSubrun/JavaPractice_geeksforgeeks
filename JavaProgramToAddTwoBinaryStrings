@@ -1,0 +1,21 @@
+package geekforgeeks;
+
+import java.util.Scanner;
+
+public class JavaProgramToAddTwoBinaryStrings {
+
+	public static void main(String[] args) {
+
+		Scanner obj = new Scanner(System.in);
+		System.out.println("First Number:");
+		String a = obj.nextLine();
+		System.out.println("First Number:");
+		String b = obj.nextLine();
+		
+		int N1 = Integer.parseInt(a,2);
+		int N2 = Integer.parseInt(b,2);
+		int N3 = N1 + N2;
+		System.out.println("Addition:"+Integer.toBinaryString(N3));
+		}
+
+}

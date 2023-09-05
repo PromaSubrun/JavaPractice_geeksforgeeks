@@ -1,0 +1,28 @@
+package geekforgeeks;
+
+//Take an integer as input and print it
+
+import java.io.*;
+import java.util.Scanner;
+
+public class code2 {
+
+	public static void main(String[] args){
+
+		// Declare the variables
+		int number;
+
+		// Input the integer
+		System.out.println("Enter the integer: ");
+
+		// Create a Scanner object
+		Scanner obj = new Scanner(System.in);
+
+		// Read the next integer from the screen
+		number = obj.nextInt();
+
+		// Display the integer
+		System.out.println("The Number is: "
+						+ number);
+	}
+}
