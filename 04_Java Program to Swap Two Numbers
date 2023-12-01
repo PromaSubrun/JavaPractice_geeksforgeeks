@@ -1,6 +1,6 @@
 package geekforgeeks;
 
-public class Swap {
+public class SwapTwoNumbers {
 
 	public static void main(String[] args) {
 		int m = 10;
